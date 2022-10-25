@@ -87,15 +87,15 @@ h1 {
     padding: 20px;
 }
 
-p {
+.sotto-sezione{
     padding: 40px;
     line-height: 25px;
 }
 
 .button-1, .button-2 {
     text-decoration: none;
-    padding: 10px;
-    border-radius: 15px;
+    padding: 15px;
+    border-radius: 30px;
     margin-left: 20px;
 }
 
@@ -107,4 +107,64 @@ p {
 .button-2 {
     background-color: black;
     color: white;
+}
+
+span {
+    font-size: 17px;
+    padding: 5px;
+    color: black;
+}
+
+/* corpo della pagina */
+
+.contenitore-main{
+    display: flex;
+    justify-content: center ;
+    flex-wrap: wrap;
+}
+
+.background-white {
+    display: flex;
+    justify-content: center ;
+}
+
+.background-grey {
+    display: flex;
+    justify-content: center ;
+    background-color: rgb(235, 230, 230);
+    background-image: url ('../img/wave.svg');
+}
+
+.row-corpo {
+    display: flex;
+    justify-content: center;
+    margin: 70px auto;
+}
+
+h2 {
+    font-size: 40px;
+    padding: 10px;
+}
+
+.testo-1, .testo-2, .testo-3 {
+    font-size: 17px;
+    line-height: 25px;
+    padding: 10px;
+}
+
+.col-img-1, .col-img-2, .col-img-3 {
+    display: flex;
+    justify-content: center;
+    width: 70%;
+}
+
+.col-testo-1 , .col-testo-2 , .col-testo-3{
+    padding: 20px;
+    width: 30%;
+}
+
+.col-fine-corpo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
