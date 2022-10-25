@@ -126,13 +126,14 @@ span {
 .background-white {
     display: flex;
     justify-content: center ;
+    width: 100%;
 }
 
 .background-grey {
     display: flex;
     justify-content: center ;
     background-color: rgb(235, 230, 230);
-    background-image: url ('../img/wave.svg');
+    width: 100%;
 }
 
 .row-corpo {
@@ -162,7 +163,7 @@ h2 {
     padding: 20px;
     width: 30%;
 }
-
+ 
 .col-fine-corpo{
     display: flex;
     flex-direction: column;
