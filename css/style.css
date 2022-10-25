@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: "Whitney","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
 /* stilizzazione header, navbar */
 
 .contenitore-header{
@@ -17,7 +21,6 @@
     justify-content: center;
     width: 70%;
     margin: 10px auto;
-    font-family: "Whitney","Helvetica Neue","Helvetica","Arial",sans-serif;
 }
 
 .col-1 {
@@ -57,4 +60,51 @@ li a {
     padding: 7px;
     border-radius: 15px;
     color: rgba(49,97,224,255);
+}
+
+/* creazione contenitore sottosezione header */
+
+.sotto-sezione-header{
+    display: flex;
+    justify-content: center;
+    background-image: url('../img/jumbo.png');
+    background-size: cover;
+}
+
+.contenitore-sotto-sezione {
+    width: 70%;
+    margin: 70px;
+    color: white;
+    text-align: center;
+}
+
+.sotto-sezione-header .row {
+    margin-bottom: 100px;
+}
+
+h1 {
+    font-size: 50px;
+    padding: 20px;
+}
+
+p {
+    padding: 40px;
+    line-height: 25px;
+}
+
+.button-1, .button-2 {
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 15px;
+    margin-left: 20px;
+}
+
+.button-1 {
+    background-color: white;
+    color: black;
+}
+
+.button-2 {
+    background-color: black;
+    color: white;
 }
