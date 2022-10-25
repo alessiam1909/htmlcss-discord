@@ -194,7 +194,79 @@ h3 {
 .footer {
     display: flex;
     justify-content: center ;
-    background-color: rgb(27, 27, 27);
+    background-color: rgba(35,39,42,255);
     width: 100%;
     flex-wrap: wrap;
+}
+
+.row-footer {
+    margin: 30px auto;
+}
+.col-f-1{
+    width: 30%;
+}
+
+.col-f-2, .col-f-3, .col-f-4, .col-f-5 {
+    width: 17.5%;
+}
+
+.bandiera {
+    width: 20px;
+}
+
+.titolo-footer {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+h4 {
+    margin-top: 5px;
+}
+
+h4 , .titolo-footer {
+    color: rgba(114,137,218,255);
+}
+
+select {
+    background-color:rgba(35,39,42,255);
+    color: white;
+    border: none;
+    font-family: "Whitney","Helvetica Neue","Helvetica","Arial",sans-serif;
+    margin-bottom: 20px;
+}
+
+.icona {
+    width: 25px;
+    padding: 2px;
+}
+ul {
+    list-style-type: none;
+}
+
+li {
+    color: white;
+    line-height: 25px;
+    font-size: 15px;
+}
+
+.row-footer2 {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    border-top: 2px solid rgba(114,137,218,255);
+}
+
+.logo-finale {
+    margin: 20px 0;
+}
+
+.button-4{
+    display: flex;
+    text-align: center;
+    background-color: rgba(142,161,225,255);
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 30px;
+    margin: 15px 0;
 }
