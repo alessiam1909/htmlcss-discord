@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* stilizzazione header, navbar */
+
+.contenitore-header{
+    background-color: rgba(49,97,224,255);
+    display: flex;
+    justify-content: center ;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    margin: 10px auto;
+    font-family: "Whitney","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+.col-1 {
+    display: flex;
+    justify-content: flex-start;
+    width: 20%;
+}
+
+.col-2{
+    display: flex;
+    width: 60%;
+}
+
+.col-3{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 20%;
+}
+
+.lista-header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+    width: 100%;
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+}
+
+.col-3 a{
+    text-decoration: none;
+    background-color: white;
+    padding: 7px;
+    border-radius: 15px;
+    color: rgba(49,97,224,255);
+}
